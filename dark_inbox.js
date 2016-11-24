@@ -15,10 +15,12 @@ var nbf="#cccccc"; // New badge foreground
 
 var csscript = document.createElement('style'); 
 csscript.type = "text/css"; 
-csscript.innerHTML = ".c4,body{\
+csscript.innerHTML = "\
+.c4, body{\
   background-color:"+bg+"!important;\
+  color:"+et+"!important;\
 }\
-.bn, .bc, .u2.nJ, .br .aV{\
+.bn, .bc, .u2.nJ, .br .aV, .X{\
   background-color:"+tb+"!important;\
   color:"+et+"!important;\
 }\
@@ -36,23 +38,30 @@ csscript.innerHTML = ".c4,body{\
 .m9, .dy[disabled], .r6, .f0.jhBYqb, #gb#gb a.gb_O{\
   color:"+et+"!important;\
 }\
-.gL .dl, .g-W-aG-K, .IB, .ld, .gN, .nY, .t1, .pE, .g-W-K, .l1, .gg, .aO.Ipp0xc, .KW, .dU, .du, .rA, .lJ, .qY, .jA, .cC, .hX, .gX, .FK, .bD.SVcSYb, .gb_Xb, .e6 img, .actionIcon, .sR{\
+.gL .dl, .g-W-aG-K, .IB, .ld, .gN, .nY, .t1, .g-W-K, .l1, .gg, .aO.Ipp0xc, .KW, .dU, .du, .rA, .lJ, .qY, .jA, .cC, .hX, .gX, .FK, .bD.SVcSYb, .gb_Xb, .e6 img, .tD img, .actionIcon, .sR, .g-Ku-mw .g-aq-jq, .pE>img{\
   filter:invert(100%) !important;\
   box-shadow: none !important;\
 }\
 .Y {\
   border-bottom-color:"+sp+"!important;\
 }\
-.bB, .fX, .X, .gb_Eb *, .kH, .f9, .aR, .k, .bb .O-c3, .dm, .f5, .i8, .hs, .rI, .rJ, .de, .m7, .gb_ga, .gb_Bb, .gb_xb, .gb_ja, .hA, .d2, .fk, .do{\
+.bB, .fX, .ap, .ap :not(img), .gb_Eb *, .kH, .f9, .aR, .k, .bb .O-c3, .dm, .f5, .i8, .hs, .rI, .rJ, .de, .m7, .gb_ga, .gb_Bb, .gb_xb, .gb_ja, .hA, .d2, .fk, .do, .d2>.g-aq.g-Ku{\
   background-color:"+eb+"!important;\
   color:"+et+"!important;\
 }\
-.b4, .b4 .at, .h8, .dK, .gb_Z:hover .gb_4, .ac-P .bJ, .an, .nJ, .az, .nE, .Nm, input, .cN:hover, .cQ:hover, .gb_Cb:hover, #aVMuZe:not(.m):not(.M) .ad>.I:not(.pU4C1e), #aVMuZe:not(.m):not(.M) .ay>.I, .ad.a1>*>*>.r:not(.B8), .ay.a1>*>*>.r, #aVMuZe:not(.m):not(.M) .ix.r{\
+.b4, .b4 .at, .h8, .dK, .gb_Z:hover .gb_4, .ac-P .bJ, .an, .nJ, .az, .nE, .Nm, .Mx, input, .cN:hover, .cQ:hover, .gb_Cb:hover, #aVMuZe:not(.m):not(.M) .ad>.I:not(.pU4C1e), #aVMuZe:not(.m):not(.M) .ay>.I, .ad.a1>*>*>.r:not(.B8), .ay.a1>*>*>.r, #aVMuZe:not(.m):not(.M) .ix.r, .d2>.g-aq.g-Ku:hover{\
   background:"+eheader+"!important;\
   color:"+et+"!important;\
 }\
 bB .at::before, .at::before, .aa::before, .an::before{\
-    box-shadow: none !important;\
+  box-shadow: none !important;\
+}\
+.an::before{\
+  border-width: 1px;\
+  border-bottom-style: solid;\
+  border-top-style: solid;\
+  border-bottom-color:#444;\
+  border-top-color:#666;\
 }\
 .HB {\
   background-color:"+nbb+"!important;\
