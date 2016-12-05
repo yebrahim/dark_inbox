@@ -38,7 +38,7 @@ csscript.innerHTML = "\
 .m9, .dy[disabled], .r6, .f0.jhBYqb, #gb#gb a.gb_O{\
   color:"+et+"!important;\
 }\
-.gL .dl, .g-W-aG-K, .IB, .ld, .gN, .nY, .t1, .g-W-K, .l1, .gg, .aO.Ipp0xc, .KW, .dU, .du, .rA, .lJ, .qY, .jA, .cC, .hX, .gX, .FK, .bD.SVcSYb, .gb_Xb, .e6 img, .tD img, .actionIcon, .sR, .g-Ku-mw .g-aq-jq, .pE>img, .hX>img{\
+.gL .dl, .g-W-aG-K, .IB, .ld, .gN, .nY, .t1, .g-W-K, .l1, .gg, .aO.Ipp0xc, .KW, .dU, .du, .rA, .lJ, .qY, .jA, .cC, .hX>img, .gX, .FK, .bD.SVcSYb, .gb_Xb, .e6 img, .tD img, .actionIcon, .sR, .g-Ku-mw .g-aq-jq, .hX>img{\
   filter:invert(100%) !important;\
   box-shadow: none !important;\
 }\
@@ -58,10 +58,8 @@ bB .at::before, .at::before, .aa::before, .an::before{\
 }\
 .an::before{\
   border-width: 1px;\
-  border-bottom-style: solid;\
   border-top-style: solid;\
-  border-bottom-color:#444;\
-  border-top-color:#666;\
+  border-top-color:#444;\
 }\
 .HB {\
   background-color:"+nbb+"!important;\
